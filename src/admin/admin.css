@@ -1,0 +1,13 @@
+aside {
+    background: #4e73df;
+    height: 100vh;
+    padding: 20px;
+}
+aside a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+
+}
