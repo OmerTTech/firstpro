@@ -5,7 +5,7 @@ const InputHeader = ({ input, setItems }) => {
  
   const searchHandler = (e) => {
    const filteredData = input.filter((element) => {
-    
+    // updated by Omer
     return element.title.slice(0,e.target.value.length).toLowerCase() === e.target.value.toLowerCase() ? element : null
     });
     if (e.target.value.length === 0) {
